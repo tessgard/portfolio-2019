@@ -1,0 +1,97 @@
+.landing-page-container-show {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page-container-hide {
+  display: none;
+}
+
+.landing-page-inner-container {
+  width: 80%;
+  height: 500px;
+  background: white;
+  border: 1pt solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing-page-left {
+  width: 20%;
+  height: 40%;
+  border: 1pt solid black;
+  margin: 20px 20px;
+  padding: 20px 20px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('/portrait.jpg');
+}
+
+.landing-page-right {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+.landing-page-right-inner-top {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: end;
+}
+
+.about-landing-page-right-inner-bottom {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: end;
+}
+
+.about-landing-page-right-inner-bottom-hide {
+  display: none;
+}
+
+.project.box {
+  width: 200px;
+  height: 200px;
+  border: 1pt solid black;
+  background: pink;
+}
+
+.project-landing-page-right-inner-bottom-hide {
+  display: none;
+}
+
+.project-landing-page-right-inner-bottom {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: end;
+}
+
+.contact-landing-page-right-inner-bottom-hide {
+  display: none;
+}
+
+.contact-landing-page-right-inner-bottom {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: end;
+}
