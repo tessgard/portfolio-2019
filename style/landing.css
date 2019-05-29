@@ -4,6 +4,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 900px;
+  margin-left: -25px;
+  margin-bottom: -15px;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 55pt;
 }
 
 .landing-page-container-hide {
@@ -12,32 +28,55 @@
 
 .landing-page-inner-container {
   width: 80%;
-  height: 500px;
+  max-width: 900px;
+  height: 470px;
   background: white;
-  border: 1pt solid black;
+  border: 10pt solid black;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .landing-page-left {
-  width: 20%;
+  width: 30%;
   height: 40%;
-  border: 1pt solid black;
-  margin: 20px 20px;
+  margin-left: 20px;
+  margin-top: 45px;
   padding: 20px 20px;
   overflow: hidden;
-  background-size: cover;
+  background-size: 170px;
   background-position: center;
-  background-image: url('/portrait.jpg');
+  background-image: url('/portrait-drawing.png');
+  background-repeat: no-repeat;
 }
 
+.landing-page-left-hide {
+  display: none;
+}
+
+.social-links a {
+  margin-left: 10px;
+}
+
+
 .landing-page-right {
-  width: 50%;
+  width: 75%;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 20px 20px;
+  align-items: flex-end;
+  margin-left: 20px 20px;
+  padding: 20px 20px;
+}
+
+.landing-page-right-full {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 20px 20px;
   padding: 20px 20px;
 }
 
@@ -51,24 +90,33 @@
 }
 
 .about-landing-page-right-inner-bottom {
-  width: 100%;
+  width: 80%;
   height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  text-align: end;
+  align-items: flex-end;
+  text-align: right;
 }
+
 
 .about-landing-page-right-inner-bottom-hide {
   display: none;
 }
 
-.project.box {
-  width: 200px;
-  height: 200px;
-  border: 1pt solid black;
-  background: pink;
+.project-all{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
 }
+
+.project-box {
+  width:auto;
+  height: auto;
+  margin: 10px 10px;  
+}
+
 
 .project-landing-page-right-inner-bottom-hide {
   display: none;
@@ -80,7 +128,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  text-align: end;
+  text-align: end; 
 }
 
 .contact-landing-page-right-inner-bottom-hide {
@@ -95,3 +143,6 @@
   justify-content: flex-start;
   text-align: end;
 }
+
+/* mobile */
+
