@@ -153,8 +153,8 @@
 /* mobile */
 @media screen and (max-width: 800px) {
 body {
-  background: pink;
 }
+
 
 .landing-page-container-show {
   width: 100%;
@@ -172,12 +172,13 @@ body {
   align-items: flex-start;
   max-width: 900px;
   margin-left: -25px;
-  margin-bottom: -15px;
+  margin-bottom: -8px;
+  margin-top: 20px;
 }
 
 .title h1 {
   margin: 0;
-  font-size: 50pt;
+  font-size: 30pt;
 }
 
 .landing-page-inner-container {
@@ -191,7 +192,7 @@ body {
 }
 
 .landing-page-left {
-  width: 330px;
+  width: 300px;
   height: 220px;
   margin-left: 20px;
   margin-top: 5px;
@@ -201,6 +202,7 @@ body {
   background-position: center;
   background-image: url('/portrait-drawing.png');
   background-repeat: no-repeat;
+  background-size: 90%;
 }
 
 .about-landing-page-right-inner-bottom {
