@@ -18,9 +18,6 @@
   text-align: left;
 }
 
-
-
-
 @media screen and (max-width: 800px) {
   .submit-button:focus, .submit-button:visited, .submit-button:active {
     outline: none;
