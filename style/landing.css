@@ -44,24 +44,12 @@
   padding: 20px 20px;
   overflow: hidden;
   background-position: center;
-  background-image: url('/portrait-drawing.png');
+  background-image: url('https://media.giphy.com/media/gHia1ekM0J3NzhmKUn/giphy.gif');
   background-repeat: no-repeat;
   background-size: 60%;
 
 }
 
-.landing-page-left-eyes-open {
-  width: 300px;
-  height: 220px;
-  margin-left: 20px;
-  margin-top: 5px;
-  padding: 20px 20px;
-  overflow: hidden;
-  background-position: center;
-  background-image: url('/portrait-drawing-eyes-open\ .png');
-  background-repeat: no-repeat;
-  background-size: 60%;
-}
 
 .landing-page-left-hide {
   display: none;
@@ -214,26 +202,10 @@ body {
   overflow: hidden;
   background-size: 170px;
   background-position: center;
-  background-image: url('/portrait-drawing.png');
+  background-image: url('https://media.giphy.com/media/gHia1ekM0J3NzhmKUn/giphy.gif');
   background-repeat: no-repeat;
   background-size: 80%;
 }
-
-.landing-page-left-eyes-open {
-  width: 300px;
-  height: 220px;
-  margin-left: 20px;
-  margin-top: 5px;
-  padding: 20px 20px;
-  overflow: hidden;
-  background-size: 170px;
-  background-position: center;
-  background-image: url('/portrait-drawing-eyes-open\ .png');
-  background-repeat: no-repeat;
-  background-size: 80%;
-}
-
-
 
 .about-landing-page-right-inner-bottom {
   width: 180%;
