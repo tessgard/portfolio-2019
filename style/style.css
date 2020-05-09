@@ -4,6 +4,7 @@ body {
   margin: 0;
   background-image: linear-gradient(140deg, #000000 11.61%, #ffffff 11.61%, #ffffff 25%, #bdd2f2 25%, #bdd2f2 50%, #000000 50%, #000000 61.61%, #ffffff 61.61%, #ffffff 75%, #bdd2f2 75%, #bdd2f2 100%);
   background-size: 87.12px 73.10px;
+  max-height: 700px;
 }
 
 a {
