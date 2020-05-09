@@ -9,9 +9,12 @@
 </head> 
 <body>
   <div class="main-container">
+
     <div class="title-spot">
       <h1>Tess.</h1>
     </div>
+
+    <!-- social icons -->
     <div class="container-content">
       <div class="top-left">
         <div class="icon-spot">
@@ -24,6 +27,8 @@
           <a href="mailto:gard.tess@gmail.com"><i class="far fa-envelope-open"></i></a>
         </div>
       </div>
+
+      <!-- start of content container from latest project button to skill bubbles -->
       <div class="bottom-left">
         <a target="_blank" href="http://design-develop.co/">
           <div class="latest-projects">
@@ -74,4 +79,17 @@
     </div>
   </div>
 </body>
+
+<script>
+  var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
+</script>
 </html>
