@@ -166,3 +166,9 @@ h1 {
 .inner-content {
  padding: 30px 30px;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    max-height: 300px;
+  }
+}
