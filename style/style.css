@@ -19,7 +19,7 @@ h1 {
 }
 
 .main-container {
-  margin: 30px;
+  margin: 2%;
   border: 10pt solid yellow;
   padding-bottom: 100px;
 }
@@ -69,7 +69,7 @@ h1 {
 
 .top-left i {
   padding: 15px;
-  font-size: 50px;
+  font-size: 40px;
   color: black;
 }
 
@@ -124,7 +124,7 @@ h1 {
 
 .latest-projects {
   display: flex;
-  height: 100px;
+  height: 80px;
   border-radius: 50px;
   background-color: white;
   width: auto;
@@ -132,13 +132,13 @@ h1 {
   margin-bottom: 50px;
   padding-left: 30px;
   padding-right: 30px;
-  border: 10pt solid black;
+  border: 5pt solid black;
   box-sizing: border-box;
 }
 
 .latest-projects:hover {
   cursor: pointer;
-  border: 10pt solid pink;
+  border: 5pt solid pink;
 }
 
 .latest-projects i {
