@@ -224,4 +224,12 @@ h1 {
   .bubble-grey {
     font-size: smaller;
   }
+  .container-content {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
